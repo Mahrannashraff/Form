@@ -1,0 +1,126 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.picture{
+    background: url(makeup.jpg);
+    flex-grow: 1;
+    position: relative;
+    width: 40vw;
+    min-width: 345px;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    line-height: 2rem;
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo>img{
+    width:90px;
+    padding: 5px;
+}
+
+.dummy-text{
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    background-color: #ECBAF0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formm {
+    padding: 4rem;
+    width: 60vw;
+    margin-bottom: 18rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 6px 5px 0px #38353580;
+    display: flex;
+    gap: 6rem;
+    background-color: #c964b8;
+  }
+  
+
+label{
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: rgba(44, 34, 34, 0.852);
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+input{
+    display:flex;
+    width: 20rem;
+    margin-bottom: 30px;
+    height: 30px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 7px;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus{
+    border: 3px solid black;
+}
+
+button{
+    background-color: white;
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 60px;
+    width: 12rem;
+    height: 3rem;
+    bottom: 5rem;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: #d39b7f80;
+}
+
+
+
+.account{
+    position: absolute;
+    bottom: 5rem;
+    right: 4rem;
+}
